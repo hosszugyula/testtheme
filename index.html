@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>TesztTéma</title>
+  <meta name="description" content="Test task for a Frontend Job." />
+  <meta name="author" content="Hosszú Gyula" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!-- fejlec -->
+  <nav class="nav-wrapper">
+    <div class="logo">
+      <strong>TesztTéma</strong>
+    </div>
+    <ul class="left-items mobile-hide">
+      <li href="#" class="number">09 87 654 3210</li>
+      <li href="#" class="contact">Kapcsolat</li>
+      <li href="#" class="a1"> | </li>
+      <li href="#" class="us">Rólunk</li>
+      <li href="#" class="a2"> | </li>
+      <li href="#" class="payment">Fizetés, Szállítás</li>
+      <li href="#" class="triangle_down"></li>
+    </ul>
+    <ul class="right-items mobile-hide">
+      <li><input type="text" class="searchTerm" placeholder="keresés..."></li>
+      <li><img src="img/buttons/search_button.png"></li>
+      <li><img src="img/buttons/prof_bttn.png"></li>
+      <li><img src="img/buttons/fav_bttn.png"></li>
+      <li><img src="img/buttons/bask_bttn.png"></li>
+    </ul>
+    <ul class="nav-items mobile-hide">
+      <li class="list-item"><a href="#">Árcápolás</a></li>
+      <li class="list-item"><a href="#">Testápolás</a></li>
+      <li class="list-item"><a href="#">Hajápolás</a></li>
+      <li class="list-item"><a href="#">Smink</a></li>
+      <li class="list-item"><a href="#">Bőrtípusok</a></li>
+      <li class="list-item"><a href="#">Újdonságok</a></li>
+      <li class="list-item"><a href="#">Férfiaknak</a></li>
+      <li class="list-item"><a href="#">Baba-mama</a></li>
+      <li class="list-item"><a href="#">Ajándék ötletek</a></li>
+      <li class="list-item"><a href="#">Márka</a></li>
+      <li class="list-item"><a href="#">Akció</a></li>
+    </ul>
+  </nav>
+
+  <!-- elony_sav, nagyban_1, mozaik, akcios, videos_dinamikus -->
+  <div class="main-wrapper">
+    <div class="wrapper">
+      <div class="elony_sav">
+        <p><img src="img/lab.png"> kizárólag növényi eredetű alkotó elemek</p>
+      </div>
+
+      <div class="nagyban_1">
+        <div class="nagyban_p">
+          <h1>Lorem</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor
+            incididunt.</p>
+          <button name="button" type="submit" class="reszletek">Részletek</button>
+        </div>
+        <div class="arrow_l">
+          <button type="button" value="" id="prev" name="prev" onclick="goback();">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        <div class="arrow_r">
+          <button type="button" value="" id="next" name="next" onclick="gofwd();">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        <div class="kep">
+          <img src="img/nagyban.png" id="image">
+        </div>
+      </div>
+
+      <div class="mozaik">
+        <p class="k1">Heading</p>
+        <p class="k2">Heading</p>
+        <p class="k3">Heading</p>
+        <p class="k4">Heading</p>
+        <p class="k5">Heading</p>
+        <p class="k6">Heading</p>
+      </div>
+
+      <div class="akcios">
+        <div class="akc">
+          <p>Akciós termékek</p>
+        </div>
+        <div class="product1">
+          <img src="img/akcios/image 21.png"><br>
+          <p class="first">Lorem ipsum dolor sit amet,<br> consectetur adipiscing</p>
+          <p class="second">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor
+            incididunt ut labore<br> dolore
+            magna aliqua incididunt ut. </p> <br>
+          <div class="rating">
+            <span class="rating__result"></span>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+          </div>
+          <p class="fourth" id="fourthline">12 300Ft</p>
+          <p class="fourth">10 900 Ft</p>
+          <button class="kosarba1" name="button" type="submit">Kosárba</button>
+        </div>
+
+        <div class="product2">
+          <img src="img/akcios/image 22.png"><br>
+          <p class="first1">Lorem ipsum dolor sit amet,<br> consectetur adipiscing</p>
+          <p class="second1">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor
+            incididunt ut labore<br> dolore
+            magna aliqua incididunt ut. </p> <br>
+          <div class="rating">
+            <span class="rating__result"></span>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+          </div>
+          <p class="fourth1" id="fourthline">12 300Ft</p>
+          <p class="fourth1">10 900 Ft</p>
+          <button name="button" type="submit" class="kosarba2">Kosárba</button>
+        </div>
+
+        <div class="product3">
+          <img src="img/akcios/image 23.png"><br>
+          <p class="first2">Lorem ipsum dolor sit amet,<br> consectetur adipiscing</p>
+          <p class="second2">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor
+            incididunt ut labore<br> dolore
+            magna aliqua incididunt ut. </p> <br>
+          <div class="rating">
+            <span class="rating__result"></span>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+          </div>
+          <p class="fourth2" id="fourthline">12 300Ft</p>
+          <p class="fourth2">10 900 Ft</p>
+          <button name="button" type="submit" class="kosarba3">Kosárba</button>
+        </div>
+
+        <div class="product4">
+          <img src="img/akcios/image 24.png"><br>
+          <p class="first3">Lorem ipsum dolor sit amet,<br> consectetur adipiscing</p>
+          <p class="second3">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor
+            incididunt ut labore<br> dolore
+            magna aliqua incididunt ut. </p> <br>
+          <div class="rating">
+            <span class="rating__result"></span>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+          </div>
+          <p class="fourth3" id="fourthline">12 300Ft</p>
+          <p class="fourth3">10 900 Ft</p>
+          <button name="button" type="submit" class="kosarba4">Kosárba</button>
+        </div>
+        <div class="akci_button">
+          <button name="button" type="submit" class="all_bttn">Összes akciós termék</button>
+        </div>
+      </div>
+
+      <div class="videos_dinamikus">
+        <h1>a természetes szépségért</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+        <button name="button" type="submit" class="megnezem">Megnézem</button>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="sub1">
+      <p class="same">Kapcsolat</p>
+      <p class="same">| </p>
+      <p class="same">Akciós termékek</p>
+      <p class="same">| </p>
+      <p class="same">Adatvédelmi tájékoztató</p>
+      <p class="same">| </p>
+      <p class="same">Vásárlási feltételek</p>
+      <p class="same">| </p>
+      <p class="same">Fizetés, szállítás</p>
+      <p class="same">| </p>
+      <p class="same">Adatvédelem</p>
+      <p class="same">| </p>
+      <p class="same">Segítség</p>
+      <p class="same">| </p>
+      <p class="same">Rólunk</p>
+    </div>
+    <div class="sub2">
+      <p class="same">4028 Debrecen, Kassai út 129</p>
+      <p class="same">| </p>
+      <p class="same" id="mail">info@shoprenter.hu</p>
+      <p class="same">| </p>
+      <p class="same">+36-1/234-5012</p>
+      <p class="same">| </p>
+      <p class="same">Nyitvatartás: h-p 9-17</p>
+    </div>
+    <div class="sub3">
+      <img class="same" src="img/footer/fb.png">
+      <img class="same" src="img/footer/ins.png">
+      <img class="same" src="img/footer/yt.png">
+      <img class="same" src="img/footer/mess.png">
+      <img class="same" src="img/footer/twitt.png">
+    </div>
+    <div class="sub4">
+      <p>© 2021 Teszts téma</p>
+    </div>
+    <div class="sub5">
+      <p class="same">HU</p>
+      <p class="same">|</p>
+      <p class="same">En</p>
+      <button name="button" type="submit" class="same">Huf</button>
+
+    </div>
+    <div class="sub6">
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+        enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+        qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+        consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+        quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+        nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+    </div>
+  </footer>
+
+  <!-- szallfiz -->
+  <div class="szallfiz">
+    <img id="gls" src="img/szall/image 17.png">
+    <img id="dpd" src="img/szall/image 20.png">
+    <img id="paypal" src="img/szall/image 18.png">
+    <img id="mastercard" src="img/szall/image 19.png">
+    <img id="maestro" src="img/szall/image 21.png">
+    <img id="ev" src="img/szall/image 15.png">
+    <img id="arukereso" src="img/szall/image 16.png">
+  </div>
+  </div>
+
+  <script src="js/slider.js"></script>
+  <script src="js/rating.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
